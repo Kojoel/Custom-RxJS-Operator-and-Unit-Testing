@@ -1,0 +1,55 @@
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12rem;
+    gap: 10px;
+}
+
+.input-box {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    input {
+        width: 120px;
+        height: 50px;
+        border-radius: 12px;
+        border: none;
+        background: rgb(235, 235, 235);
+        text-align: center;
+        font-size: 2rem;
+    }
+    input:focus {
+        outline: none;
+    }
+
+    button {
+        width: fit-content;
+        height: 53px;
+        border: none;
+        border-radius: 12px;
+        background: limegreen;
+        color: rgb(1, 59, 1);
+        font-weight: 600;
+        cursor: pointer;
+    }
+    button:hover {
+        color: white;
+    }
+    button:active {
+        opacity: .8;
+    }
+}
+
+.view-result {
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    font-size: 100px;
+}

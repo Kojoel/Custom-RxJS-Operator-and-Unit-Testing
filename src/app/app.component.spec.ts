@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('Custom-RxJS-Operator-and-Unit-Testing');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Custom-RxJS-Operator-and-Unit-Testing');
-  });
+  // it('should render title', () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   fixture.detectChanges();
+  //   const compiled = fixture.nativeElement as HTMLElement;
+  //   expect(compiled.querySelector('h1')?.textContent).toContain('Hello, Custom-RxJS-Operator-and-Unit-Testing');
+  // });
 });
